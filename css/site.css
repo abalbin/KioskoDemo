@@ -1,0 +1,58 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.seccion-quiosco
+{
+  margin-bottom: 20px;
+}
+
+.seccion-quiosco-title
+{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.quiosco-thumb {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+.quiosco-detalle-thumb {
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+.quiosco-thumb:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  position: absolute;
+  width: 300px;
+  margin-left: -10px;
+  margin-top: -20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.quiosco-detalle{
+  padding: 80px 60px 0 60px;
+}
+
+.quiosco-detalle-titulo{
+  margin-top: 0;
+}
+
+.quiosco-detalle-info{
+  padding-left: 20px
+}
