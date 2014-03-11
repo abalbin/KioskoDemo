@@ -47,8 +47,6 @@ body {
   filter: none; /* IE6-9 */
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
   position: absolute;
-  width: 300px;
-  height: 276px;
   margin-left: -10px;
   margin-top: -20px;
   z-index: 999;
